@@ -24,15 +24,46 @@ while (mapa[y])[x] == " ":
     if direccion == "ABAJO":
         x = x
         y = y + 1
+        if direccion == "B":
+            print("La rana ha muerto, FIN del juego")
+            break
+        elif direccion == "T1":
+            x= 1
+            y= 5
+        elif dirrecion == "T2":
+
+            
     elif direccion == "ARRIBA":
         x = x
         y = y - 1
+        if direccion == "B":
+            print("La rana ha muerto, FIN del juego")
+            break
+        elif direccion == "T1":
+
+        elif direccion == "T2":
+
     elif direccion == "DERECHA":
         x = x - 1
         y = y 
+        if direccion == "B":
+            print("La rana ha muerto, FIN del juego")
+            break
+        elif direccion == "T1":
+
+        elif direccion == "T2":
+
     elif direccion == "IZQUIERDA":
         x = x + 1
         y = y 
+        if direccion == "B":
+            print("La rana ha muerto, FIN del juego")
+            break
+        elif direccion == "T1":
+
+        elif direccion == "T2":
+
+
     else:
         print("SOLO SE PUEDEN ELEGIR LAS OPCIONES DE DIRECCIÓN EXPLICADAS, ELIGE BIEN")
         print("\n")
