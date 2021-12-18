@@ -1,5 +1,7 @@
 # JUEGO-RANA
 
+Nuestra querida rana JUAN quiere escapar del laberinto. ¿Conseguirá JUAN escapar de su disocho destino?
+
 Mi dirección de github es: https://github.com/claudiaalozano/JUEGO-RANA.git
 
 A continuación muestro un esquema de como se realizaría el programa:
