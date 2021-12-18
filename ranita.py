@@ -8,14 +8,14 @@ mapa= [
     ["X" , "X" , "X" , "X" , "X" , "S" , "X"],
 ]
 
-x = 0
-y = 0
+x = 1
+y = 1
 
 print("La rana empieza en la posición (0,0)")
 print((mapa[y])[x])
 i = 0
 
-while (mapa[y])[x] == " ":
+while (mapa[y])[x] != "X":
     direccion = input("Selecciona la dirección en la que deseas moverte (ARRIBA, ABAJO, DERECHA, IZQUIERDA): ")
     
     if direccion == "ABAJO" or "ARRIBA" or "DERECHA" or "IZQUIERDA":
